@@ -1,0 +1,11 @@
+{
+    "name": "rhys-mcguckin/data-storage",
+    "description": "A data storage and query library utilizing the data-definitions library.",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "DataDefinition\\Store\\": "src/Store",
+        "DataDefinition\\Query\\": "src/Query"
+      }
+    }
+}
